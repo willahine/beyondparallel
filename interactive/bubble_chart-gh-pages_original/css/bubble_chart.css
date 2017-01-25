@@ -2,9 +2,13 @@ a, a:visited, a:active {
   color: #444;
 }
 
+body {
+      font-family:"museo-sans"
+}
 .container {
   max-width: 900px;
   margin: auto;
+  margin-top:40px;
 }
 
 .button {
