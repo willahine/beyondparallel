@@ -75,7 +75,7 @@ function bubbleChart() {
   // Sizes bubbles based on their area instead of raw radius
   var radiusScale = d3.scale.pow()
     .exponent(0.2)
-    .range([4, 20]);
+    .range([1, 20]);
 
   /*
    * This data manipulation function takes the raw data from
@@ -287,9 +287,6 @@ function bubbleChart() {
     var content = '<span class="name">Leader: </span><span class="value">' +
                   d.name +
         '</span><br/>' +
-        '<span class="name">Signifigance of Visit: </span><span class="value">' +
-                  addCommas(d.value) +
-                  '</span><br/>' +
         '<span class="name">Type: </span><span class="value">' +
                                d.what +
                           '</span><br/>' +
