@@ -284,7 +284,7 @@ function bubbleChart() {
     // change outline to indicate hover state.
     d3.select(this).attr('stroke', 'black');
 
-    var content = '<span class="name">Leader: </span><span class="value">' +
+    var content = '<span class="name">Leaders: </span><span class="value">' +
                   d.name +
         '</span><br/>' +
         '<span class="name">Type: </span><span class="value">' +
@@ -293,7 +293,7 @@ function bubbleChart() {
                   '<span class="name">Location: </span><span class="value">' +
                                d.year +
                           '</span><br/>' +
-                  '<span class="name">Date of Visit: </span><span class="value">' +
+                  '<span class="name">Dates of Visit: </span><span class="value">' +
                   d.org +
                   '</span>';
     tooltip.showTooltip(content, d3.event);
