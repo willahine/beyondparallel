@@ -70,7 +70,7 @@ function bubbleChart() {
   // Nice looking colors - no reason to buck the trend
   var fillColor = d3.scale.ordinal()
     .domain(['zedong', 'deng', 'zemin', 'jintao','jinping'])
-    .range(['#0f2a48', '#8bc53f', '#ffc726','#f05a28','#92278f']);
+    .range(['#faaf40', '#0f2a48', '#83d4ef','#be1e2d','#444444']);
 
   // Sizes bubbles based on their area instead of raw radius
   var radiusScale = d3.scale.pow()
