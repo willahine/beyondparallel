@@ -75,7 +75,7 @@ function bubbleChart() {
   // Sizes bubbles based on their area instead of raw radius
   var radiusScale = d3.scale.pow()
     .exponent(0.2)
-    .range([4, 10]);
+    .range([4, 30]);
 
   /*
    * This data manipulation function takes the raw data from
