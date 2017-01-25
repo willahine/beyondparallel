@@ -1,0 +1,31 @@
+leader,id,date,total_amount,group,Grant start date,start_month,type,location
+Mao Zedong,1,01/10/16,0.4,low,2/4/10,2,summit,here
+Deng Xiaoping,2,01/10/16,1.45,medium,8/3/09,8,summit,there
+Jiang Zemin,3,01/10/16,0.9,low,11/12/09,11,summit,there
+Hu Jintao,4,01/10/16,2.5,high,3/11/10,3,summit,here
+Xi Jinping,5,01/10/16,1.6,medium,3/11/10,3,summit,there
+Kim Il Sung,6,01/10/16,0.8,low,3/11/10,3,summit,here
+Kim Jong Il,7,01/10/16,1.7,medium,3/11/10,summit,non-summit,there
+Kim Jong Un,8,01/10/16,1.8,medium,3/11/10,summit,non-summit,here
+Mao Zedong,9,01/10/16,10,low,2/4/10,2,summit,here
+Deng Xiaoping,10,01/10/16,20,medium,8/3/09,8,summit,there
+Jiang Zemin,11,01/10/16,0.2,low,11/12/09,11,summit,there
+Hu Jintao,12,01/10/16,2.5,high,3/11/10,3,summit,here
+Xi Jinping,13,01/10/16,1.6,medium,3/11/10,3,summit,there
+Kim Il Sung,14,01/10/16,0.8,low,3/11/10,3,summit,here
+Kim Jong Il,15,01/10/16,1.7,medium,3/11/10,summit,non-summit,there
+Kim Jong Un,16,01/10/16,1.8,medium,3/11/10,summit,non-summit,here
+Jiang Zemin,17,01/10/16,0.9,low,11/12/09,11,summit,there
+Hu Jintao,18,01/10/16,2.5,high,3/11/10,3,summit,here
+Xi Jinping,19,01/10/16,1.6,medium,3/11/10,3,summit,there
+Kim Il Sung,20,01/10/16,0.8,low,3/11/10,3,summit,here
+Kim Jong Il,21,01/10/16,1.7,medium,3/11/10,summit,non-summit,there
+Kim Jong Un,22,01/10/16,1.8,medium,3/11/10,summit,non-summit,here
+Mao Zedong,23,01/10/16,10,low,2/4/10,2,summit,here
+Deng Xiaoping,24,01/10/16,20,medium,8/3/09,8,summit,there
+Jiang Zemin,25,01/10/16,0.2,low,11/12/09,11,summit,there
+Hu Jintao,26,01/10/16,2.5,high,3/11/10,3,summit,here
+Xi Jinping,27,01/10/16,1.6,medium,3/11/10,3,summit,there
+Kim Il Sung,28,01/10/16,0.8,low,3/11/10,3,summit,here
+Kim Jong Il,29,01/10/16,1.7,medium,3/11/10,summit,non-summit,there
+Kim Jong Un,30,01/10/16,1.8,medium,3/11/10,summit,non-summit,here
