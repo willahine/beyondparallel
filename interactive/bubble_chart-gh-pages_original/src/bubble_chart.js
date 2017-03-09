@@ -31,7 +31,7 @@ function bubbleChart() {
 
   // X locations of the year titles.
   var yearsTitleX = {
-    "zedong": width / 6 - 50,
+    "zedong": width / 6 - 10,
     "deng": width / 2,
     "zemin": width - 160,
     "jintao": width - 200,
@@ -39,7 +39,7 @@ function bubbleChart() {
   };
 
   var yearsTitleX = {
-    "zedong": { x: width / 6, y: 200, title: "Mao Zedong / Kim Il Sung" },
+    "zedong": { x: 400, y: 170, title: "Mao Zedong / Kim Il Sung" },
     "deng": { x: 2 * width / 6 + 200, y: 70, title: "Deng Xiaoping / Kim Il Sung" },
     "zemin": { x: 3 * width / 6 + 250, y: 70, title: "Jiang Zemin / Kim Il Sung" },
     "jintao": { x: 4 * width / 7 + 705, y: 400, title: "Hu Jintao/Kim Jong-il" },
