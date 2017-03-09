@@ -21,7 +21,7 @@ function bubbleChart() {
   var center = { x: width / 2, y: height / 2 };
 
   var yearCenters = {
-    2008: { x: width / 3, y: height / 2 },
+    "Mao Zedong / Kim Il Sung": { x: width / 3, y: height / 2 },
     2009: { x: width / 2, y: height / 2 },
     2010: { x: 2 * width / 3, y: height / 2 }
   };
