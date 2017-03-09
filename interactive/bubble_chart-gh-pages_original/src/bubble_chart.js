@@ -31,7 +31,7 @@ function bubbleChart() {
 
   // X locations of the year titles.
   var yearsTitleX = {
-    "zedong": 160,
+    "zedong": width / 6 - 50,
     "deng": width / 2,
     "zemin": width - 160,
     "jintao": width - 200,
