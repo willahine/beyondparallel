@@ -39,7 +39,7 @@ function bubbleChart() {
   };
 
   var yearsTitleX = {
-    "zedong": { x: width / 6, y: 20, title: "Mao Zedong / Kim Il Sung" },
+    "zedong": { x: width / 6, y: 100, title: "Mao Zedong / Kim Il Sung" },
     "deng": { x: 2 * width / 6 + 140, y: 70, title: "Deng Xiaoping / Kim Il Sung" },
     "zemin": { x: 3 * width / 6 + 200, y: 70, title: "Jiang Zemin / Kim Il Sung" },
     "jintao": { x: 4 * width / 7 + 705, y: 400, title: "Hu Jintao/Kim Jong-il" },
