@@ -38,11 +38,11 @@ function bubbleChart() {
   };
 
   var yearsTitleX = {
-    "zedong": { x: width / 6, y: 70, title: "OECD high-income" },
-    "deng": { x: 2 * width / 6 + 85, y: 70, title: "High-income" },
-    "zemin": { x: 3 * width / 6 + 100, y: 70, title: "Upper middle-income" },
-    "jintao": { x: 4 * width / 6 + 135, y: 70, title: "Lower middle-income" },
-    "jinping": { x: 5 * width / 6 + 115, y: 70, title: "Low-income" },
+    "zedong": { x: width / 6, y: 70, title: "Mao Zedong / Kim Il Sung" },
+    "deng": { x: 2 * width / 6 + 85, y: 70, title: "Deng Xiaoping / Kim Il Sung" },
+    "zemin": { x: 3 * width / 6 + 100, y: 70, title: "Jiang Zemin / Kim Il Sung" },
+    "jintao": { x: 4 * width / 6 + 135, y: 80, title: "Hu Jintao/Kim Jong-il" },
+    "jinping": { x: 5 * width / 6 + 115, y: 80, title: "Xi Jinping/Kim Jong-un" },
   }
 
   // Used when setting up force and
