@@ -21,16 +21,16 @@ function bubbleChart() {
   var center = { x: width / 2, y: height / 2 };
 
   var yearCenters = {
-    "Mao Zedong / Kim Il Sung": { x: width / 3, y: height / 2 },
-    2009: { x: width / 2, y: height / 2 },
-    2010: { x: 2 * width / 3, y: height / 2 }
+    "Mao Zedong/Kim Il Sung": { x: width / 3, y: height / 2 },
+    "Deng Xiaoping/Kim Il Sung": { x: width / 2, y: height / 2 },
+    "Jiang Zemin/Kim Il Sung": { x: 2 * width / 3, y: height / 2 }
   };
 
   // X locations of the year titles.
   var yearsTitleX = {
-    2008: 160,
-    2009: width / 2,
-    2010: width - 160
+    "Mao Zedong / Kim Il Sung": 160,
+    "Deng Xiaoping/Kim Il Sung": width / 2,
+    "Jiang Zemin/Kim Il Sung": width - 160
   };
 
   // Used when setting up force and
