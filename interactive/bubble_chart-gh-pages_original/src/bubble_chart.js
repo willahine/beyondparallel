@@ -23,15 +23,27 @@ function bubbleChart() {
   var yearCenters = {
     "zedong": { x: width / 3, y: height / 2 },
     "deng": { x: width / 2, y: height / 2 },
-    "zemin": { x: 2 * width / 3, y: height / 2 }
+    "zemin": { x: 2 * width / 3, y: height / 2 },
+    "jintao": { x: width / 2, y: height / 2 },
+    "jinping": { x: 2 * width / 3, y: height / 2 }
   };
 
   // X locations of the year titles.
   var yearsTitleX = {
     "zedong": 160,
     "deng": width / 2,
-    "zemin": width - 160
+    "zemin": width - 160,
+    "jintao": width - 200,
+    "jinping": width - 250
   };
+
+  var yearsTitleX = {
+    "zedong": { x: width / 6, y: 70, title: "OECD high-income" },
+    "deng": { x: 2 * width / 6 + 85, y: 70, title: "High-income" },
+    "zemin": { x: 3 * width / 6 + 100, y: 70, title: "Upper middle-income" },
+    "jintao": { x: 4 * width / 6 + 135, y: 70, title: "Lower middle-income" },
+    "jinping": { x: 5 * width / 6 + 115, y: 70, title: "Low-income" },
+  }
 
   // Used when setting up force and
   // moving around nodes
@@ -244,7 +256,7 @@ function bubbleChart() {
    */
   function moveToYears(alpha) {
     return function (d) {
-      var target = yearCenters[d.name];
+      var target = yearCenters[d.group];
       d.x = d.x + (target.x - d.x) * damper * alpha * 1.1;
       d.y = d.y + (target.y - d.y) * damper * alpha * 1.1;
     };
@@ -269,10 +281,10 @@ function bubbleChart() {
 
     years.enter().append('text')
       .attr('class', 'year')
-      .attr('x', function (d) { return yearsTitleX[d]; })
-      .attr('y', 40)
+      .attr('x', function (d) { return yearsTitleX[d]['x']; })
+      .attr('y', function (d) { return yearsTitleX[d]['y']; })
       .attr('text-anchor', 'middle')
-      .text(function (d) { return d; });
+      .text(function (d) { return yearsTitleX[d]['title']; });
   }
 
 
