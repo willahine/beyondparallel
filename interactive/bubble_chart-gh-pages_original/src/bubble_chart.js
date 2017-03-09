@@ -21,11 +21,12 @@ function bubbleChart() {
   var center = { x: width / 2, y: height / 2 };
 
   var yearCenters = {
-    "zedong": { x: width / 3, y: height / 2 },
-    "deng": { x: width / 2, y: height / 2 },
-    "zemin": { x: 2 * width / 3, y: height / 2 },
-    "jintao": { x: width / 2, y: height / 2 },
-    "jinping": { x: 2 * width / 3, y: height / 2 }
+    "zedong": {x: 2 * width / 6 + 50, y: height / 2 },
+    "deng": { x: 3 * width / 6 + 50, y: height / 2 },
+    "zemin": { x: 4 * width / 6 + 50, y: height / 2 },
+    "jintao": { x: 5 * width / 6 + 25, y: height / 2 },
+    "jinping": { x: 6 * width / 6 + 25, y: height / 2 }
+
   };
 
   // X locations of the year titles.
