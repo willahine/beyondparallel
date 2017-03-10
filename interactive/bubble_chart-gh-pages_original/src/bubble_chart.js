@@ -18,14 +18,14 @@ function bubbleChart() {
 
   // Locations to move bubbles towards, depending
   // on which view mode is selected.
-  var center = { x: width / 2, y: height / 2 };
+  var center = { x: width / 2, y: height / 4 };
 
   var yearCenters = {
-    "zedong": {x: 1 * width / 6 + 98, y: height / 2 },
+    "zedong": {x:width / 6 + 98, y: height / 2 },
     "deng": { x: 2 * width / 6 + 100, y: height / 2 },
     "zemin": { x: 3 * width / 6 + 100, y: height / 2 },
-    "jintao": { x: 5 * width / 6 + 25, y: height / 2 },
-    "jinping": { x: 6 * width / 6 + 100, y: height / 4 }
+    "jintao": { x: 5 * width / 6 + 90, y: height / 2 },
+    "jinping": { x: 6 * width / 6 + 10, y: height / 4 }
 
   };
 
