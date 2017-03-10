@@ -47,8 +47,8 @@ function floatingTooltip(tooltipId, width) {
    * based on d3 mouse event.
    */
   function updatePosition(event) {
-    var xOffset = 20;
-    var yOffset = 10;
+    var xOffset = 50;
+    var yOffset = 50;
 
     var ttw = tt.style('width');
     var tth = tt.style('height');
