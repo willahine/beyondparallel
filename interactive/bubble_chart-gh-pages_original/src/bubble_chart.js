@@ -11,7 +11,7 @@
 function bubbleChart() {
   // Constants for sizing
   var width = 1200;
-  var height = 600;
+  var height = 1000;
 
   // tooltip for mouseover functionality
   var tooltip = floatingTooltip('gates_tooltip', 240);
@@ -24,8 +24,8 @@ function bubbleChart() {
     "zedong": {x:width / 6 + 98, y: height / 2 },
     "deng": { x: 2 * width / 6 + 100, y: height / 2 },
     "zemin": { x: 3 * width / 6 + 100, y: height / 2 },
-    "jintao": { x: 5 * width / 6 + 90, y: height / 2 },
-    "jinping": { x: 6 * width / 6 + 10, y: height / 1 }
+    "jintao": { x: 5 * width / 6 + 50, y: height / 2 },
+    "jinping": { x: 6 * width + 10, y: height / 3 }
 
   };
 
