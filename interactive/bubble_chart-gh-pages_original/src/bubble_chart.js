@@ -25,7 +25,8 @@ function bubbleChart() {
     "deng": { x: 2 * width / 6 + 100, y: height / 2 },
     "zemin": { x: 3 * width / 6 + 100, y: height / 2 },
     "jintao": { x: 2 * width / 6 + 50, y: height / 2 },
-    "jinping": { x: 3 * width / 6 + 50, y: height / 2 }
+    "jinping": { x: 3 * width / 6 + 50, y: height / 2 },
+      "zeminil": { x: 3 * width / 6 + 70, y: height / 2 }
 
   };
 
@@ -35,7 +36,8 @@ function bubbleChart() {
     "deng": width / 2,
     "zemin": width - 160,
     "jintao": width - 200,
-    "jinping": width - 250
+    "jinping": width - 250,
+    "zeminil":width - 250,
   };
 
   var yearsTitleX = {
@@ -44,6 +46,7 @@ function bubbleChart() {
     "zemin": { x: 3 * width / 6 + 250, y: 70, title: "" },
     "jintao": { x: 4 * width / 7 + 705, y: 400, title: "" },
     "jinping": { x: 5 * width / 6 + 415, y: 80, title: "" },
+        "zeminil": { x: 5 * width / 6 + 415, y: 80, title: "" },
   }
 
   // Used when setting up force and
@@ -82,8 +85,8 @@ function bubbleChart() {
 
   // Nice looking colors - no reason to buck the trend
   var fillColor = d3.scale.ordinal()
-    .domain(['zedong', 'deng', 'zemin', 'jintao','jinping'])
-    .range(['#faaf40', '#0f2a48', '#83d4ef','#be1e2d','#999999']);
+    .domain(['zedong', 'deng', 'zemin', 'jintao','jinping','zeminil'])
+    .range(['#faaf40', '#0f2a48', '#83d4ef','#be1e2d','#999999','#92278f']);
 
   // Sizes bubbles based on their area instead of raw radius
   var radiusScale = d3.scale.pow()
