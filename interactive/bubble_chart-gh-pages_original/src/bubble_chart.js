@@ -14,7 +14,7 @@ function bubbleChart() {
   var height = 600;
 
   // tooltip for mouseover functionality
-  var tooltip = floatingTooltip('gates_tooltip', 240);
+  var tooltip = floatingTooltip('gates_tooltip', 100);
 
   // Locations to move bubbles towards, depending
   // on which view mode is selected.
