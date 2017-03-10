@@ -25,7 +25,7 @@ function bubbleChart() {
     "deng": { x: 2 * width / 6 + 100, y: height / 2 },
     "zemin": { x: 3 * width / 6 + 100, y: height / 2 },
     "jintao": { x: 5 * width / 6 + 25, y: height / 2 },
-    "jinping": { x: 6 * width / 6 + 25, y: height / 2 }
+    "jinping": { x: 6 * width / 6 + 100, y: height / 4 }
 
   };
 
