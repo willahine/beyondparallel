@@ -11,7 +11,7 @@
 function bubbleChart() {
   // Constants for sizing
   var width = 900;
-  var height = 700;
+  var height = 800;
 
   // tooltip for mouseover functionality
   var tooltip = floatingTooltip('gates_tooltip', 100);
@@ -36,6 +36,7 @@ function bubbleChart() {
     "deng": width / 2,
     "zemin": width - 160,
     "jintao": width - 200,
+    "jintaoun":width - 200,
     "jinping": width - 250,
     "zeminil":width - 250,
   };
@@ -45,6 +46,7 @@ function bubbleChart() {
     "deng": { x: 2 * width / 6 + 400, y: 70, title: "" },
     "zemin": { x: 3 * width / 6 + 250, y: 70, title: "" },
     "jintao": { x: 4 * width / 7 + 705, y: 400, title: "" },
+    "jintaoun": { x: 4 * width / 7 + 705, y: 400, title: "" },
     "jinping": { x: 5 * width / 6 + 415, y: 80, title: "" },
         "zeminil": { x: 5 * width / 6 + 415, y: 80, title: "" },
   }
@@ -85,8 +87,8 @@ function bubbleChart() {
 
   // Nice looking colors - no reason to buck the trend
   var fillColor = d3.scale.ordinal()
-    .domain(['zedong', 'deng', 'zemin', 'jintao','jinping','zeminil'])
-    .range(['#faaf40', '#0f2a48', '#83d4ef','#be1e2d','#999999','#92278f']);
+    .domain(['zedong', 'deng', 'zemin', 'jintao','jinping','zeminil','jintaoun'])
+    .range(['#faaf40', '#0f2a48', '#83d4ef','#be1e2d','#999999','#92278f',"#000000"]);
 
   // Sizes bubbles based on their area instead of raw radius
   var radiusScale = d3.scale.pow()
