@@ -11,7 +11,7 @@
 function bubbleChart() {
   // Constants for sizing
   var width = 900;
-  var height = 800;
+  var height = 900;
 
   // tooltip for mouseover functionality
   var tooltip = floatingTooltip('gates_tooltip', 100);
@@ -21,13 +21,13 @@ function bubbleChart() {
   var center = { x: width / 3, y: height / 3 };
 
   var yearCenters = {
-    "zedong": {x:width / 5 + 95, y: height / 2 },
-    "deng": { x: 2 * width / 5 + 100, y: height / 2 },
-    "zemin": { x: 3 * width / 5 + 100, y: height / 2 },
-    "jintao": { x: 2 * width / 5 + 50, y: height / 2 },
-    "jintaoun": { x: 2 * width / 5 + 50, y: height / 2 },
-    "jinping": { x: 3 * width / 5 + 50, y: height / 2 },
-      "zeminil": { x: 3 * width / 5 + 70, y: height / 2 }
+    "zedong": {x:width / 7 + 95, y: height / 3 },
+    "deng": { x: 2 * width / 7 + 100, y: height / 3 },
+    "zemin": { x: 3 * width / 7 + 100, y: height / 3 },
+    "jintao": { x: 2 * width / 7 + 50, y: height / 3 },
+    "jintaoun": { x: 2 * width / 7 + 50, y: height / 3 },
+    "jinping": { x: 3 * width / 7 + 50, y: height / 3 },
+      "zeminil": { x: 3 * width / 7 + 70, y: height / 3 }
 
   };
 
