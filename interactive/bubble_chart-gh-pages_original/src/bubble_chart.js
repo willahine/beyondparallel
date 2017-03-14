@@ -21,13 +21,13 @@ function bubbleChart() {
   var center = { x: width / 3, y: height / 3 };
 
   var yearCenters = {
-    "zedong": {x:width / 6 + 95, y: height / 2 },
-    "deng": { x: 2 * width / 6 + 100, y: height / 2 },
-    "zemin": { x: 3 * width / 6 + 100, y: height / 2 },
-    "jintao": { x: 2 * width / 6 + 50, y: height / 2 },
-    "jintaoun": { x: 2 * width / 6 + 50, y: height / 2 },
-    "jinping": { x: 3 * width / 6 + 50, y: height / 2 },
-      "zeminil": { x: 3 * width / 6 + 70, y: height / 2 }
+    "zedong": {x:width / 5 + 95, y: height / 2 },
+    "deng": { x: 2 * width / 5 + 100, y: height / 2 },
+    "zemin": { x: 3 * width / 5 + 100, y: height / 2 },
+    "jintao": { x: 2 * width / 5 + 50, y: height / 2 },
+    "jintaoun": { x: 2 * width / 5 + 50, y: height / 2 },
+    "jinping": { x: 3 * width / 5 + 50, y: height / 2 },
+      "zeminil": { x: 3 * width / 5 + 70, y: height / 2 }
 
   };
 
