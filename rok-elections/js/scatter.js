@@ -129,7 +129,7 @@ $(function () {
       data: [
 
       {
-"name":"3/23/2000 - NK Maritime Declaration and Incursions"
+"name":"3/23/2000 - NK Maritime Declaration and Incursions",
 "x":2000,
 "y":-21,
 },
