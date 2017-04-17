@@ -14,7 +14,7 @@ $(function () {
 
     },
     title: {
-      text: 'ROK ELECTIONS VS NK PROVOCATIONS',
+      text: 'ROK ELECTIONS VS DPRK PROVOCATIONS',
       style: {
               fontFamily: 'museo sans',
               color:'#fff'
