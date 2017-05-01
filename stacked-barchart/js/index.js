@@ -5,7 +5,7 @@ $(function () {
                 type: 'column'
             },
             title: {
-                text: 'DPRK Negotiations with U.S. and Multilateral By Type and Leader'
+                text: 'Total Number of Negotiations By Leader'
             },
             xAxis: {
               max:2,
