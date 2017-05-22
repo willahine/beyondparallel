@@ -56,10 +56,10 @@ $(function () {
             },
             series: [{
                 name: 'Multilateral',
-                data: [0, 115, 5,]
+                data: [9, 82, 0,]
             }, {
                 name: 'US-DPRK',
-                data: [10, 40, 0]
+                data: [16, 93, 2]
 
             }]
         });
